@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="redis" />
         <module name="string" />
+        <module name="config" />
       </profile>
     </annotationProcessing>
   </component>
