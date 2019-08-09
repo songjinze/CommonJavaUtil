@@ -9,8 +9,10 @@
         <module name="redis" />
         <module name="string" />
         <module name="file" />
-        <module name="config" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="config" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

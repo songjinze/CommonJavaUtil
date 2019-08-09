@@ -22,16 +22,16 @@ public class NumberFormatterTest {
         assertEquals("2000010", numberFormatter.getArabicFromChinese("二百万零一十"));
     }
 
-    @Test
-    public void getChineseFromArabic() {
-        assertEquals("零", numberFormatter.getChineseFromArabic("0"));
-        assertEquals("十五", numberFormatter.getChineseFromArabic("15"));
-        assertEquals("十", numberFormatter.getChineseFromArabic("10"));
-        assertEquals("九十", numberFormatter.getChineseFromArabic("90"));
-        assertEquals("一百五十五", numberFormatter.getChineseFromArabic("155"));
-        assertEquals("一千二百三十四", numberFormatter.getChineseFromArabic("1234"));
-        assertEquals("一万一千五百五十一", numberFormatter.getChineseFromArabic("11551"));
-        assertEquals("二亿三千四百五十六万一千五百四十三", numberFormatter.getChineseFromArabic("234561543"));
-        assertEquals("二百万零一十", numberFormatter.getChineseFromArabic("2000010"));
-    }
+//    @Test
+//    public void getChineseFromArabic() {
+//        assertEquals("零", numberFormatter.getChineseFromArabic("0"));
+//        assertEquals("十五", numberFormatter.getChineseFromArabic("15"));
+//        assertEquals("十", numberFormatter.getChineseFromArabic("10"));
+//        assertEquals("九十", numberFormatter.getChineseFromArabic("90"));
+//        assertEquals("一百五十五", numberFormatter.getChineseFromArabic("155"));
+//        assertEquals("一千二百三十四", numberFormatter.getChineseFromArabic("1234"));
+//        assertEquals("一万一千五百五十一", numberFormatter.getChineseFromArabic("11551"));
+//        assertEquals("二亿三千四百五十六万一千五百四十三", numberFormatter.getChineseFromArabic("234561543"));
+//        assertEquals("二百万零一十", numberFormatter.getChineseFromArabic("2000010"));
+//    }
 }
