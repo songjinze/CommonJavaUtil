@@ -12,6 +12,7 @@
         <module>redis</module>
         <module>string</module>
         <module>config</module>
+        <module>file</module>
     </modules>
 
 

@@ -55,7 +55,7 @@ public class NumberFormatter {
      * @return 阿拉伯数字表示
      * @throws RuntimeException 有非法字符
      */
-    public synchronized String getArabicFromChinese(String numberInChinese) throws RuntimeException {
+    public String getArabicFromChinese(String numberInChinese) throws RuntimeException {
         char[] charArray = numberInChinese.toCharArray();
         StringBuilder stringBuilder = new StringBuilder();
         int index = 0;
@@ -104,7 +104,7 @@ public class NumberFormatter {
      * @return 中文简体表示的数字
      * @throws RuntimeException 有非法字符
      */
-    public synchronized String getChineseFromArabic(String numberInArabic) throws RuntimeException {
+    private String getChineseFromArabic(String numberInArabic) throws RuntimeException {
         char[] charArray = numberInArabic.toCharArray();
         StringBuilder stringBuilder = new StringBuilder();
         for (int i = charArray.length - 1; i >= 0; i--) {
