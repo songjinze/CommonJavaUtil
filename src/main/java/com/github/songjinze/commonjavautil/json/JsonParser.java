@@ -1,4 +1,4 @@
-package com.github.songjinze.string.json;
+package com.github.songjinze.commonjavautil.json;
 
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;

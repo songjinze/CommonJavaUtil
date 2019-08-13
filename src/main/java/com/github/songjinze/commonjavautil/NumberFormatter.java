@@ -1,6 +1,5 @@
-package com.github.songjinze.string;
+package com.github.songjinze.commonjavautil;
 
-import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 

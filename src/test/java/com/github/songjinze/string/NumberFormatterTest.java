@@ -1,8 +1,8 @@
 package com.github.songjinze.string;
 
-import org.junit.Test;
+import com.github.songjinze.commonjavautil.NumberFormatter;
 
-import static org.junit.Assert.*;
+import static junit.framework.Assert.assertEquals;
 
 public class NumberFormatterTest {
 

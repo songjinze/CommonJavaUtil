@@ -1,4 +1,4 @@
-package com.github.songjinze.string.json;
+package com.github.songjinze.commonjavautil.json;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
@@ -61,7 +61,7 @@ public class JsonAttributeGetter {
     /**
      * 通过路径获得当前路径对应的json array
      *
-     * @param path json array对应的路径
+     * @param path com.github.songjinze.commonjavautil.json array对应的路径
      * @param json 爬取页面的json
      * @return 当前路径对应的JsonArray
      * @throws RuntimeException 当前路径对应的不是JsonArray

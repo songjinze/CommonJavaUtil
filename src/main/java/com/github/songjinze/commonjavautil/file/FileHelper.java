@@ -1,4 +1,4 @@
-package com.github.songjinze.file;
+package com.github.songjinze.commonjavautil.file;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
