@@ -1,4 +1,4 @@
-package com.github.songjinze.commonjavautil;
+package com.github.songjinze.commonjavautil.number;
 
 import java.util.HashMap;
 import java.util.Map;

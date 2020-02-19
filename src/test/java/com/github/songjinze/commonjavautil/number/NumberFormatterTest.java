@@ -1,6 +1,6 @@
-package com.github.songjinze.string;
+package com.github.songjinze.commonjavautil.number;
 
-import com.github.songjinze.commonjavautil.NumberFormatter;
+import com.github.songjinze.commonjavautil.number.NumberFormatter;
 
 import static junit.framework.Assert.assertEquals;
 
