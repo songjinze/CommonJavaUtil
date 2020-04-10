@@ -156,7 +156,7 @@
     </profiles>
     <distributionManagement>
         <repository>
-            <id>lwj-mvn-repo</id>
+            <id>sjz-mvn-repo</id>
             <url>file:${basedir}/repo</url>
         </repository>
     </distributionManagement>
